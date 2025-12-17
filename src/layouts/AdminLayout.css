@@ -1,0 +1,100 @@
+/* src/layouts/AdminLayout.css */
+.admin-layout {
+  display: flex;
+  min-height: 100vh;
+  background: #f8fafc;
+}
+
+.admin-main {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  transition: margin-left 0.3s ease;
+  margin-left: 260px;
+}
+
+.admin-main.sidebar-collapsed {
+  margin-left: 70px;
+}
+
+.admin-content {
+  flex: 1;
+  padding: 24px;
+  overflow-y: auto;
+}
+
+/* Content wrapper for better layout */
+.content-wrapper {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+/* Card styles for content */
+.admin-card {
+  background: white;
+  border-radius: 8px;
+  padding: 24px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  margin-bottom: 24px;
+}
+
+.admin-card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  padding-bottom: 16px;
+  border-bottom: 1px solid #e2e8f0;
+}
+
+.admin-card-title {
+  font-size: 20px;
+  font-weight: 600;
+  color: #1e293b;
+  margin: 0;
+}
+
+/* Page title styles */
+.page-title {
+  font-size: 28px;
+  font-weight: 700;
+  color: #1e293b;
+  margin: 0 0 24px 0;
+}
+
+/* Mobile Responsive */
+@media (max-width: 768px) {
+  .admin-main {
+    margin-left: 0;
+  }
+
+  .admin-main.sidebar-collapsed {
+    margin-left: 0;
+  }
+
+  .admin-content {
+    padding: 16px;
+  }
+
+  .admin-card {
+    padding: 16px;
+  }
+
+  .page-title {
+    font-size: 22px;
+    margin-bottom: 16px;
+  }
+
+  .admin-card-header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+  }
+}
+
+/* Tablet Responsive */
+@media (min-width: 769px) and (max-width: 1024px) {
+  .admin-content {
+    padding: 20px;
+  }
+}

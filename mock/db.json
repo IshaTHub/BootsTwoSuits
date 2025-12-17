@@ -1,0 +1,102 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "email": "admin@example.com",
+      "password": "admin123",
+      "name": "Admin User",
+      "role": "admin",
+      "avatar": "https://via.placeholder.com/150",
+      "createdAt": "2024-01-01T00:00:00.000Z"
+    },
+    {
+      "id": 2,
+      "email": "user@example.com",
+      "password": "user123",
+      "name": "Regular User",
+      "role": "user",
+      "avatar": "https://via.placeholder.com/150",
+      "createdAt": "2024-01-02T00:00:00.000Z"
+    }
+  ],
+  "content": [
+    {
+      "id": 1,
+      "title": "Welcome to Our Website",
+      "slug": "welcome-to-our-website",
+      "description": "This is a sample content piece",
+      "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "status": "published",
+      "authorId": 1,
+      "createdAt": "2024-01-01T00:00:00.000Z",
+      "updatedAt": "2024-01-01T00:00:00.000Z"
+    },
+    {
+      "id": 2,
+      "title": "Getting Started Guide",
+      "slug": "getting-started-guide",
+      "description": "Learn how to get started",
+      "body": "Step by step guide to getting started with our platform.",
+      "status": "draft",
+      "authorId": 1,
+      "createdAt": "2024-01-02T00:00:00.000Z",
+      "updatedAt": "2024-01-02T00:00:00.000Z"
+    }
+  ],
+  "website": {
+    "home": {
+      "hero": {
+        "title": "Welcome to Our Platform",
+        "subtitle": "Build amazing things with us",
+        "ctaText": "Get Started",
+        "ctaLink": "/contact"
+      },
+      "features": [
+        {
+          "id": 1,
+          "title": "Fast Performance",
+          "description": "Lightning fast loading times",
+          "icon": "⚡"
+        },
+        {
+          "id": 2,
+          "title": "Secure",
+          "description": "Enterprise-grade security",
+          "icon": "🔒"
+        },
+        {
+          "id": 3,
+          "title": "Scalable",
+          "description": "Grows with your business",
+          "icon": "📈"
+        }
+      ]
+    },
+    "about": {
+      "title": "About Us",
+      "content": "We are a team of passionate developers...",
+      "team": [
+        {
+          "id": 1,
+          "name": "John Doe",
+          "position": "CEO",
+          "image": "https://via.placeholder.com/150"
+        }
+      ]
+    },
+    "services": [
+      {
+        "id": 1,
+        "title": "Web Development",
+        "description": "Custom web applications",
+        "price": "$999"
+      },
+      {
+        "id": 2,
+        "title": "Mobile Apps",
+        "description": "iOS and Android apps",
+        "price": "$1499"
+      }
+    ]
+  }
+}
