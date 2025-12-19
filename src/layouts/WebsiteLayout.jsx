@@ -6,15 +6,11 @@ import Footer from '../components/website/Footer';
 const WebsiteLayout = () => {
   return (
     <div className="website-layout">
-      {/* Header */}
+     
       <Header />
-
-      {/* Main Content */}
       <main className="main">
         <Outlet />
       </main>
-
-      {/* Footer */}
       <Footer />
     </div>
   );

@@ -8,12 +8,14 @@ import Home from '../pages/website/Home';
 // import Services from '../pages/website/Services';
 import Contact from '../pages/website/Contact';
 import NotFound from '../pages/website/NotFound';
+import ForVeterans from '../pages/website/ForVeterans';
 
 const WebsiteRoutes = () => {
     return (
         <Routes>
             <Route element={<WebsiteLayout />}>
                 <Route index element={<Home />} />
+                <Route path="for-veterans" element={<ForVeterans />} />
                 <Route path="home" element={<Home />} />
                 {/* <Route path="about" element={<About />} />
         <Route path="services" element={<Services />} /> */}

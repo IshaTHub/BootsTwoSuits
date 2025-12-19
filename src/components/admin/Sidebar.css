@@ -20,7 +20,7 @@
 }
 
 .sidebar-header {
-  padding: 20px;
+  padding: 27px;
   border-bottom: 1px solid rgba(255, 255, 255, 0.1);
 }
 
@@ -30,6 +30,7 @@
   margin: 0;
   white-space: nowrap;
   overflow: hidden;
+  color: #f1f5f9;
 }
 
 .sidebar-nav {

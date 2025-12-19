@@ -25,7 +25,7 @@ const Sidebar = ({ isOpen, toggleSidebar }) => {
       <aside className={`sidebar ${isOpen ? 'open' : 'collapsed'}`}>
         <div className="sidebar-header">
           <h1 className="sidebar-logo">
-            {isOpen ? 'Admin CMS' : 'AC'}
+            {isOpen ? 'Boots2Suits' : 'B2S'}
           </h1>
         </div>
 
